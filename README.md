@@ -324,7 +324,7 @@ export default function Magic8Ball({ shakeDelay = 700 }) {
     setShaking(true)
     setAnswer(null)
 
-    setTimeout(() => {           // 🟢 GREEN — injected delay
+    setTimeout(() => {          // 🟢 GREEN — injected delay
       setAnswer(getRandomAnswer())
       setShaking(false)
     }, shakeDelay)
