@@ -1,0 +1,35 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #0d0d1a;
+  padding: 2rem;
+}
+
+.title {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  color: #c8b8ff;
+  margin: 0;
+}
+
+.hint {
+  font-family: Georgia, serif;
+  color: #6060a0;
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.hint kbd {
+  font-family: 'Courier New', monospace;
+  font-size: 0.85em;
+  background: #1a1a30;
+  border: 1px solid #4a4a6a;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0.1em 0.45em;
+  color: #c8b8ff;
+}
